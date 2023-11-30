@@ -1,0 +1,12 @@
+#program to identify the file format
+file=input()
+if file.endswith(".jpeg"):
+    print("Photo document")
+elif file.endswith(".doc"):
+    print("Word document")
+elif file.endswith(".xls"):
+    print("Excel document")
+elif file.endswith(".ppt"):
+    print("Powerpoint document")
+else:
+    print("Invalid document")
